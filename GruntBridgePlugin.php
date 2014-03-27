@@ -10,12 +10,14 @@ namespace AsQuel\Grunt;
 
 
 use Composer\Composer;
+use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
+use Composer\Script\Event;
 use Composer\Script\ScriptEvents;
-use Symfony\Component\EventDispatcher\Event;
 
-class GruntBridgePlugin implements PluginInterface{
+
+class GruntBridgePlugin implements PluginInterface, EventSubscriberInterface{
 
     public function __construct()
     {

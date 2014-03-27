@@ -4,6 +4,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3",
+        "composer/composer": "dev-master@dev",
         "composer-plugin-api": "1.0.0",
         "icecave/isolator": "~2"
     },
