@@ -6,7 +6,8 @@
         "php": ">=5.3",
         "composer/composer": "dev-master@dev",
         "composer-plugin-api": "1.0.0",
-        "icecave/isolator": "~2"
+        "icecave/isolator": "~2",
+        "icecave/archer": "~1"
     },
     "require-dev": {
         "composer-plugin-api": "1.0.0",
