@@ -4,7 +4,7 @@
     "license": "MIT",
 
     "require-dev": {
-        "composer/composer": "dev-master@dev",
+        "composer-plugin-api": "1.0.0",
         "icecave/archer": "~1"
     },
     "autoload": {
