@@ -1,7 +1,7 @@
 <?php
 namespace AsQuel\Grunt;
 
-use Icecave\Archer\Support\Isolator;
+use Icecave\Isolator\Isolator;
 use RuntimeException;
 
 use Composer\Script\Event;
