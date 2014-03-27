@@ -10,8 +10,6 @@
     "autoload": {
         "psr-4": {
             "AsQuel\\Grunt\\": "."
-        }
-    },
     "extra": {
         "class": "AsQuel\\Grunt\\GruntBridgePlugin"
     }
