@@ -1,0 +1,9 @@
+/nbproject/
+phpunit.xml
+composer.lock
+composer.phar
+/report/
+/vendor/
+/cache/
+.idea
+atlassian-ide-plugin.xml
